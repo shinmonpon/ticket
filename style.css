@@ -119,10 +119,13 @@
     .user-text-details .user-card-detail-item .value { font-weight: 500; }
 
     .validation-loop-wrapper { display: flex; flex-direction: column; }
-    #validationContentArea.open-content { padding-top: 16px; }
+    #validationContentArea.open-content {
+        padding-top: 16px;
+        min-height: 279px;
+    }
     .qr-code-small {
       max-width: 220px; width: auto; height: auto;
-      display: block; margin: 0 auto 16px auto; border: none;
+      display: block; margin: 0 auto 1px auto; border: none;
     }
     .text-button-link {
       background: none; border: none; color: var(--qr-button-color);
