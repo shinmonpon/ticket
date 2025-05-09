@@ -162,7 +162,6 @@
       padding: 10px 16px; border-radius: 6px; text-align: center;
       font-size: 15px; font-weight: 500;
       /* Default full width, will be overridden by media query */
-      width: 100%;
       box-sizing: border-box; /* Ensure padding is included in width */
       margin: 0 auto; /* Center if max-width is applied */
     }
