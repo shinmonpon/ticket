@@ -171,7 +171,6 @@
     /* Media query for mobile devices to set specific banner size */
     @media (max-width: 600px) { /* Adjust breakpoint as needed */
         .validity-banner {
-            width: 368px;
             height: 52px;
             display: flex; /* To center text vertically if needed */
             align-items: center;
