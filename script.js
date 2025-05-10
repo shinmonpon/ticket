@@ -76,7 +76,7 @@
       setupCollapsible('leggiTuttoLink', 'dettagliContent', 'leggiTuttoChevron', false);
     });
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').then(() => {
+  navigator.serviceWorker.register('/ticket/sw.js').then(() => {
     console.log('SW registered');
   }).catch(console.error);
 }
