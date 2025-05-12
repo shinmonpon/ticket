@@ -124,7 +124,7 @@
         min-height: 279px;
     }
     .qr-code-small {
-      max-width: 220px; width: auto; height: auto;
+      max-width: 320px; width: auto; height: auto;
       display: block; margin: 0 auto 1px auto; border: none;
     }
     .text-button-link {
